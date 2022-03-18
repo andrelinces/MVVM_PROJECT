@@ -56,6 +56,11 @@
 		D3D44F2127E4CD6F00B60F2F /* MVVM_PROJECT */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44F3927E4CE1B00B60F2F /* ViewModel */,
+				D3D44F3627E4CDD900B60F2F /* Model */,
+				D3D44F3727E4CDE600B60F2F /* View */,
+				D3D44F3827E4CE0A00B60F2F /* Controller */,
+				D3D44F3A27E4CE9700B60F2F /* Service */,
 				D3D44F2227E4CD6F00B60F2F /* AppDelegate.swift */,
 				D3D44F2427E4CD6F00B60F2F /* SceneDelegate.swift */,
 				D3D44F2627E4CD6F00B60F2F /* ViewController.swift */,
@@ -65,6 +70,41 @@
 				D3D44F3027E4CD7200B60F2F /* Info.plist */,
 			);
 			path = MVVM_PROJECT;
+			sourceTree = "<group>";
+		};
+		D3D44F3627E4CDD900B60F2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3D44F3727E4CDE600B60F2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3D44F3827E4CE0A00B60F2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D3D44F3927E4CE1B00B60F2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D3D44F3A27E4CE9700B60F2F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
