@@ -13,6 +13,11 @@
 		D3D44F2A27E4CD6F00B60F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D44F2827E4CD6F00B60F2F /* Main.storyboard */; };
 		D3D44F2C27E4CD7200B60F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D44F2B27E4CD7200B60F2F /* Assets.xcassets */; };
 		D3D44F2F27E4CD7200B60F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D44F2D27E4CD7200B60F2F /* LaunchScreen.storyboard */; };
+		D3D44F3D27E54B3F00B60F2F /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44F3C27E54B3F00B60F2F /* CourseViewModel.swift */; };
+		D3D44F3F27E54B9600B60F2F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44F3E27E54B9600B60F2F /* Course.swift */; };
+		D3D44F4127E54C0000B60F2F /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44F4027E54C0000B60F2F /* CourseCell.swift */; };
+		D3D44F4327E54C2400B60F2F /* CourseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44F4227E54C2400B60F2F /* CourseController.swift */; };
+		D3D44F4527E54C4100B60F2F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D44F4427E54C4100B60F2F /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		D3D44F2B27E4CD7200B60F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3D44F2E27E4CD7200B60F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3D44F3027E4CD7200B60F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D44F3C27E54B3F00B60F2F /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
+		D3D44F3E27E54B9600B60F2F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		D3D44F4027E54C0000B60F2F /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
+		D3D44F4227E54C2400B60F2F /* CourseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseController.swift; sourceTree = "<group>"; };
+		D3D44F4427E54C4100B60F2F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 		D3D44F3627E4CDD900B60F2F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44F3E27E54B9600B60F2F /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,6 +93,7 @@
 		D3D44F3727E4CDE600B60F2F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44F4027E54C0000B60F2F /* CourseCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,6 +101,7 @@
 		D3D44F3827E4CE0A00B60F2F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44F4227E54C2400B60F2F /* CourseController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,6 +109,7 @@
 		D3D44F3927E4CE1B00B60F2F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44F3C27E54B3F00B60F2F /* CourseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -103,6 +117,7 @@
 		D3D44F3A27E4CE9700B60F2F /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D3D44F4427E54C4100B60F2F /* Service.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -178,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D44F4127E54C0000B60F2F /* CourseCell.swift in Sources */,
+				D3D44F4527E54C4100B60F2F /* Service.swift in Sources */,
 				D3D44F2727E4CD6F00B60F2F /* ViewController.swift in Sources */,
+				D3D44F3D27E54B3F00B60F2F /* CourseViewModel.swift in Sources */,
+				D3D44F3F27E54B9600B60F2F /* Course.swift in Sources */,
 				D3D44F2327E4CD6F00B60F2F /* AppDelegate.swift in Sources */,
 				D3D44F2527E4CD6F00B60F2F /* SceneDelegate.swift in Sources */,
+				D3D44F4327E54C2400B60F2F /* CourseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
